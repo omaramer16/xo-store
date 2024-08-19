@@ -1,0 +1,44 @@
+ .back1{
+background-color: rosybrown;
+
+ }
+ .test{
+    background-color: grey;
+ }
+.home{
+    background-image:url(../IMG-20240818-WA0003.jpg) ;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.home1{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.home2 h2::after{
+    content: "";
+    animation-name: Mariam;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Mariam {
+    10%{content: "|";}
+    40%{content: " s|";}
+    50%{content: "st|";}
+    60%{content: "sto|";}  
+    70%{content: "stor|";}
+    80%{content: "store|";}
+ 
+}
+
+.home5{
+        
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+}
